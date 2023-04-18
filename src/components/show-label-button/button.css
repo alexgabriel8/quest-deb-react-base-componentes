@@ -1,0 +1,15 @@
+.btn {
+    padding: 5px;
+    margin: 5px;
+    background-color: var(--secondary-color);
+    color: var(--primary-color-lighter);
+    border: 2px solid var(--secondary-color-darker);
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: var(--secondary-color-darker);
+    color: var(--primary-color);
+    cursor: pointer;
+    border-color: var(--secondary-color);
+}

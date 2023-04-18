@@ -1,0 +1,40 @@
+:root {
+    --primary-color: #F5D44A;
+    --primary-color-lighter: #fce37e;
+    --primary-color-darker: #aa8c14;
+    --secondary-color: #5E65F7;
+    --secondary-color-darker: #1118A8;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--secondary-color-darker);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main {
+    padding: 10px;
+    margin: 10px;
+    background-color: var(--primary-color);
+    border: 5px solid var(--primary-color-darker);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.438);
+}
+
+.main .title {
+    font-family: 'Sora', sans-serif;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.main .text-aligned-to-center {
+    text-align: center;
+}
