@@ -1,4 +1,4 @@
-import ToggleableCaseParagraph from "../toggleable-case-paragraph/toggleable-case-paragraph";
+import ToggleableCaseParagraph from "../toggleable-case-paragraph";
 
 const pText = [
                'Texto 1 adicionado através da prop children.',

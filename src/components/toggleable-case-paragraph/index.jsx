@@ -1,4 +1,4 @@
-import './toggleable-case-paragraph.css'
+import './index.css'
 import textToUpperCase from "../../scripts/text-to-uppercase"
 
 const ToggleableCaseParagraph = ({children, textColor, pClicked}) => (

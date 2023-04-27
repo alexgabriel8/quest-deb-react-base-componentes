@@ -1,5 +1,5 @@
-import './buttons.css'
-import ShowLabelButton from "../show-label-button/show-label-button"
+import './index.css'
+import AlertButton from "../show-label-button"
 
 const btnLabel = ['Label adicionado por props', 'Mais um label adicionando por props']
 
@@ -9,10 +9,10 @@ const ShowLabelButtons = () => (
         <div className="buttons">
             {
                 btnLabel.map((label, index) => (
-                    <ShowLabelButton key={index} label={label} />
+                    <AlertButton key={index} label={label} />
                 ))
             }
-            <ShowLabelButton />
+            <AlertButton />
         </div>
     </>
 )
